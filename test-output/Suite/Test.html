@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 26 16:38:55 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>103 seconds (103860 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression smoke master </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC004_GiftCards.SelectNext()'><b>SelectNext</b><br>Test class: testCases.TC004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC004_GiftCards@36916eb0</td></tr>
+<tr>
+<td title='testCases.TC004_GiftCards.SelectDate()'><b>SelectDate</b><br>Test class: testCases.TC004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC004_GiftCards@36916eb0</td></tr>
+<tr>
+<td title='testCases.TC003_Living.SelectGiftCards()'><b>SelectGiftCards</b><br>Test class: testCases.TC003_Living</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC003_Living@21282ed8</td></tr>
+<tr>
+<td title='testCases.TC001_HomePage.Searching_Bookshleves()'><b>Searching_Bookshleves</b><br>Test class: testCases.TC001_HomePage</td>
+<td></td>
+<td>4</td>
+<td>testCases.TC001_HomePage@316bcf94</td></tr>
+<tr>
+<td title='testCases.TC002_BookShelves.SelectOrderRange()'><b>SelectOrderRange</b><br>Test class: testCases.TC002_BookShelves</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC002_BookShelves@4dbb42b7</td></tr>
+<tr>
+<td title='testCases.TC003_Living.SelectLivingSubMenu()'><b>SelectLivingSubMenu</b><br>Test class: testCases.TC003_Living</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC003_Living@21282ed8</td></tr>
+<tr>
+<td title='testCases.TC004_GiftCards.SelectPriceOfGiftCard()'><b>SelectPriceOfGiftCard</b><br>Test class: testCases.TC004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC004_GiftCards@36916eb0</td></tr>
+<tr>
+<td title='testCases.TC002_BookShelves.PrintProductDetails()'><b>PrintProductDetails</b><br>Test class: testCases.TC002_BookShelves</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC002_BookShelves@4dbb42b7</td></tr>
+<tr>
+<td title='testCases.TC004_GiftCards.SelectGiftCard()'><b>SelectGiftCard</b><br>Test class: testCases.TC004_GiftCards</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC004_GiftCards@36916eb0</td></tr>
+<tr>
+<td title='testCases.TC002_BookShelves.SelectoutOfStock()'><b>SelectoutOfStock</b><br>Test class: testCases.TC002_BookShelves</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC002_BookShelves@4dbb42b7</td></tr>
+<tr>
+<td title='testCases.TC005_ValidatingGiftCardDetails.ValidatingDetails()'><b>ValidatingDetails</b><br>Test class: testCases.TC005_ValidatingGiftCardDetails<br>Parameters: Jam, Jam@gmail.com, 9443644863, Thanuj, Thanujgmail.com, 9786923316, Trichy, 603103, Invalid</td>
+<td></td>
+<td>30</td>
+<td>testCases.TC005_ValidatingGiftCardDetails@7bab3f1a</td></tr>
+<tr>
+<td title='testCases.TC003_Living.PrintDetailsInSubMenu()'><b>PrintDetailsInSubMenu</b><br>Test class: testCases.TC003_Living</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC003_Living@21282ed8</td></tr>
+<tr>
+<td title='testCases.TC002_BookShelves.Select_PriceRange()'><b>Select_PriceRange</b><br>Test class: testCases.TC002_BookShelves</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC002_BookShelves@4dbb42b7</td></tr>
+<tr>
+<td title='testCases.TC005_ValidatingGiftCardDetails.ValidatingDetails()'><b>ValidatingDetails</b><br>Test class: testCases.TC005_ValidatingGiftCardDetails<br>Parameters: Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid</td>
+<td></td>
+<td>8</td>
+<td>testCases.TC005_ValidatingGiftCardDetails@7bab3f1a</td></tr>
+<tr>
+<td title='testCases.TC002_BookShelves.Closing_Popup()'><b>Closing_Popup</b><br>Test class: testCases.TC002_BookShelves</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC002_BookShelves@4dbb42b7</td></tr>
+<tr>
+<td title='testCases.TC002_BookShelves.Select_Category()'><b>Select_Category</b><br>Test class: testCases.TC002_BookShelves</td>
+<td></td>
+<td>0</td>
+<td>testCases.TC002_BookShelves@4dbb42b7</td></tr>
+</table><p>
+</body>
+</html>

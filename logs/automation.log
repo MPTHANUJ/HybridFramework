@@ -1,0 +1,405 @@
+22:34:30.750 [main] INFO  testCases.TC001 - ***** Starting TC001 *****
+22:34:30.761 [main] INFO  testCases.TC001 - User searches for BookShelves
+22:34:36.467 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+22:34:40.373 [main] INFO  testCases.TC001 - The PopUp is closed
+22:34:41.497 [main] INFO  testCases.TC001 - User selects the BookShelves from Category
+22:34:48.225 [main] INFO  testCases.TC001 - User selects the Price range from the Slider
+22:34:49.325 [main] INFO  testCases.TC001 - User selects the Out Of Stock options
+22:34:52.207 [main] INFO  testCases.TC001 - User selects the Order from Recommended
+22:35:04.273 [main] INFO  testCases.TC001 - User prints the details of First three Products
+22:35:04.448 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+22:35:05.162 [main] INFO  testCases.TC001 - The User checks the options available in the Living Sub Menu
+22:35:47.045 [main] INFO  testCases.TC001 - The User prints the details available in the Living sub menu
+22:36:11.736 [main] INFO  testCases.TC001 - The User clicks the Gift Card options
+22:36:11.797 [main] INFO  testCases.TC001 - ***** Starting TC004 *****
+22:36:12.782 [main] INFO  testCases.TC001 - The user selects the Birthday GiftCard
+22:36:13.212 [main] INFO  testCases.TC001 - The user selects the Price
+22:36:15.103 [main] INFO  testCases.TC001 - The user selects the Date
+22:36:15.424 [main] INFO  testCases.TC001 - The user selects Next
+22:36:21.718 [main] INFO  testCases.TC001 - The user enters To's Details 
+22:36:23.964 [main] INFO  testCases.TC001 - The user enters From's Details 
+22:36:27.291 [main] INFO  testCases.TC001 - The user clicks confirm after entering invalid email address and checks for error message
+22:36:33.787 [main] INFO  testCases.TC001 - The user enters To's Details 
+22:36:36.007 [main] INFO  testCases.TC001 - The user enters From's Details 
+22:36:39.315 [main] INFO  testCases.TC001 - The user clicks confirm after entering valid email address and checks for Confirmation
+22:45:07.447 [main] INFO  testCases.TC001 - ***** Starting TC001 *****
+22:45:07.588 [main] INFO  testCases.TC001 - User searches for BookShelves
+22:45:14.243 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+22:45:17.777 [main] INFO  testCases.TC001 - The PopUp is closed
+22:45:19.352 [main] INFO  testCases.TC001 - User selects the BookShelves from Category
+22:45:26.597 [main] INFO  testCases.TC001 - User selects the Price range from the Slider
+22:45:28.931 [main] INFO  testCases.TC001 - User selects the Out Of Stock options
+22:45:30.517 [main] INFO  testCases.TC001 - User selects the Order from Recommended
+22:45:53.148 [main] INFO  testCases.TC001 - User prints the details of First three Products
+22:45:53.221 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+22:45:53.896 [main] INFO  testCases.TC001 - The User checks the options available in the Living Sub Menu
+22:46:43.834 [main] INFO  testCases.TC001 - The User prints the details available in the Living sub menu
+22:47:31.335 [main] INFO  testCases.TC001 - The User clicks the Gift Card options
+22:47:31.399 [main] INFO  testCases.TC001 - ***** Starting TC004 *****
+22:47:33.157 [main] INFO  testCases.TC001 - The user selects the Birthday GiftCard
+22:47:34.345 [main] INFO  testCases.TC001 - The user selects the Price
+22:47:41.262 [main] INFO  testCases.TC001 - The user selects the Date
+22:47:41.952 [main] INFO  testCases.TC001 - The user selects Next
+22:47:45.010 [main] INFO  testCases.TC001 - The user enters To's Details 
+22:47:48.396 [main] INFO  testCases.TC001 - The user enters From's Details 
+22:47:51.784 [main] INFO  testCases.TC001 - The user clicks confirm after entering invalid email address and checks for error message
+22:48:04.877 [main] INFO  testCases.TC001 - The user enters To's Details 
+22:48:07.092 [main] INFO  testCases.TC001 - The user enters From's Details 
+22:48:10.576 [main] INFO  testCases.TC001 - The user clicks confirm after entering valid email address and checks for Confirmation
+22:50:52.495 [main] INFO  testCases.TC001 - ***** Starting TC001 *****
+22:50:52.506 [main] INFO  testCases.TC001 - User searches for BookShelves
+22:50:56.913 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+22:50:59.639 [main] INFO  testCases.TC001 - The PopUp is closed
+22:51:00.883 [main] INFO  testCases.TC001 - User selects the BookShelves from Category
+22:51:21.331 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+22:51:21.379 [main] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:01:06.976 [main] INFO  testCases.TC001 - ***** Starting TC001 *****
+23:01:06.988 [main] INFO  testCases.TC001 - User searches for BookShelves
+23:01:09.405 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:01:13.068 [main] INFO  testCases.TC001 - The PopUp is closed
+23:01:13.965 [main] INFO  testCases.TC001 - User selects the BookShelves from Category
+23:01:17.113 [main] INFO  testCases.TC001 - User selects the Price range from the Slider
+23:01:18.178 [main] INFO  testCases.TC001 - User selects the Out Of Stock options
+23:01:19.795 [main] INFO  testCases.TC001 - User selects the Order from Recommended
+23:01:26.821 [main] INFO  testCases.TC001 - User prints the details of First three Products
+23:01:26.910 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:01:27.399 [main] INFO  testCases.TC001 - The User checks the options available in the Living Sub Menu
+23:01:34.848 [main] INFO  testCases.TC001 - The User prints the details available in the Living sub menu
+23:01:40.484 [main] INFO  testCases.TC001 - The User clicks the Gift Card options
+23:01:40.734 [main] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:01:41.557 [main] INFO  testCases.TC001 - The user selects the Birthday GiftCard
+23:01:41.968 [main] INFO  testCases.TC001 - The user selects the Price
+23:01:43.127 [main] INFO  testCases.TC001 - The user selects the Date
+23:01:43.387 [main] INFO  testCases.TC001 - The user selects Next
+23:01:45.896 [main] INFO  testCases.TC001 - The user enters To's Details 
+23:01:47.978 [main] INFO  testCases.TC001 - The user enters From's Details 
+23:01:51.187 [main] INFO  testCases.TC001 - The user clicks confirm after entering invalid email address and checks for error message
+23:01:55.781 [main] INFO  testCases.TC001 - The user enters To's Details 
+23:01:57.162 [main] INFO  testCases.TC001 - The user enters From's Details 
+23:02:00.453 [main] INFO  testCases.TC001 - The user clicks confirm after entering valid email address and checks for Confirmation
+23:06:47.600 [TestNG-tests-1] INFO  testCases.TC001 - ***** Starting TC001 *****
+23:06:47.600 [TestNG-tests-2] INFO  testCases.TC001 - ***** Starting TC001 *****
+23:06:47.613 [TestNG-tests-1] INFO  testCases.TC001 - User searches for BookShelves
+23:06:47.613 [TestNG-tests-2] INFO  testCases.TC001 - User searches for BookShelves
+23:06:51.487 [TestNG-tests-1] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:06:52.524 [TestNG-tests-2] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:06:54.760 [TestNG-tests-1] INFO  testCases.TC001 - The PopUp is closed
+23:07:04.923 [TestNG-tests-1] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:07:11.262 [TestNG-tests-2] INFO  testCases.TC001 - The PopUp is closed
+23:07:11.305 [TestNG-tests-2] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:07:11.445 [TestNG-tests-2] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:07:11.446 [TestNG-tests-1] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:08:23.100 [TestNG-tests-2] INFO  testCases.TC001 - ***** Starting TC001 *****
+23:08:23.266 [TestNG-tests-2] INFO  testCases.TC001 - User searches for BookShelves
+23:08:23.670 [TestNG-tests-1] INFO  testCases.TC001 - ***** Starting TC001 *****
+23:08:23.670 [TestNG-tests-1] INFO  testCases.TC001 - User searches for BookShelves
+23:08:31.614 [TestNG-tests-2] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:08:59.817 [TestNG-tests-1] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:09:00.964 [TestNG-tests-2] INFO  testCases.TC001 - The PopUp is closed
+23:09:11.233 [TestNG-tests-2] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:09:21.551 [TestNG-tests-1] INFO  testCases.TC001 - The PopUp is closed
+23:09:22.110 [TestNG-tests-1] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:09:22.134 [TestNG-tests-2] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:09:22.278 [TestNG-tests-1] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:22:32.204 [main] INFO  testCases.TC001 - ***** Starting TC001 *****
+23:22:32.227 [main] INFO  testCases.TC001 - User searches for BookShelves
+23:22:38.251 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:22:41.532 [main] INFO  testCases.TC001 - The PopUp is closed
+23:22:42.545 [main] INFO  testCases.TC001 - User selects the BookShelves from Category
+23:22:47.595 [main] INFO  testCases.TC001 - User selects the Price range from the Slider
+23:22:48.032 [main] INFO  testCases.TC001 - User selects the Out Of Stock options
+23:22:49.781 [main] INFO  testCases.TC001 - User selects the Order from Recommended
+23:22:58.721 [main] INFO  testCases.TC001 - User prints the details of First three Products
+23:22:58.733 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:22:59.278 [main] INFO  testCases.TC001 - The User checks the options available in the Living Sub Menu
+23:23:19.443 [main] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:25:49.053 [main] INFO  testCases.TC001 - ***** Starting TC001 *****
+23:25:49.100 [main] INFO  testCases.TC001 - User searches for BookShelves
+23:25:55.558 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:25:58.603 [main] INFO  testCases.TC001 - The PopUp is closed
+23:25:59.530 [main] INFO  testCases.TC001 - User selects the BookShelves from Category
+23:26:01.043 [main] INFO  testCases.TC001 - User selects the Price range from the Slider
+23:26:03.795 [main] INFO  testCases.TC001 - User selects the Out Of Stock options
+23:26:04.419 [main] INFO  testCases.TC001 - User selects the Order from Recommended
+23:26:14.935 [main] INFO  testCases.TC001 - User prints the details of First three Products
+23:26:14.986 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:26:15.539 [main] INFO  testCases.TC001 - The User checks the options available in the Living Sub Menu
+23:26:33.544 [main] INFO  testCases.TC001 - The User prints the details available in the Living sub menu
+23:26:40.491 [main] INFO  testCases.TC001 - The User clicks the Gift Card options
+23:26:40.541 [main] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:26:41.316 [main] INFO  testCases.TC001 - The user selects the Birthday GiftCard
+23:26:41.728 [main] INFO  testCases.TC001 - The user selects the Price
+23:26:42.791 [main] INFO  testCases.TC001 - The user selects the Date
+23:26:43.056 [main] INFO  testCases.TC001 - The user selects Next
+23:26:48.947 [main] INFO  testCases.TC001 - The user enters To's Details 
+23:26:51.349 [main] INFO  testCases.TC001 - The user enters From's Details 
+23:26:55.179 [main] INFO  testCases.TC001 - The user clicks confirm after entering invalid email address and checks for error message
+23:27:01.047 [main] INFO  testCases.TC001 - The user enters To's Details 
+23:27:03.063 [main] INFO  testCases.TC001 - The user enters From's Details 
+23:27:06.349 [main] INFO  testCases.TC001 - The user clicks confirm after entering valid email address and checks for Confirmation
+23:48:34.833 [main] INFO  testCases.TC001 - ***** Starting TC001 *****
+23:48:34.844 [main] INFO  testCases.TC001 - User searches for BookShelves
+23:48:37.826 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:48:41.386 [main] INFO  testCases.TC001 - The PopUp is closed
+23:48:42.525 [main] INFO  testCases.TC001 - User selects the BookShelves from Category
+23:48:45.016 [main] INFO  testCases.TC001 - User selects the Price range from the Slider
+23:48:45.279 [main] INFO  testCases.TC001 - User selects the Out Of Stock options
+23:48:45.753 [main] INFO  testCases.TC001 - User selects the Order from Recommended
+23:48:52.512 [main] INFO  testCases.TC001 - User prints the details of First three Products
+23:48:52.523 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:48:52.873 [main] INFO  testCases.TC001 - The User checks the options available in the Living Sub Menu
+23:48:59.676 [main] INFO  testCases.TC001 - The User prints the details available in the Living sub menu
+23:49:05.187 [main] INFO  testCases.TC001 - The User clicks the Gift Card options
+23:49:05.201 [main] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:49:05.909 [main] INFO  testCases.TC001 - The user selects the Birthday GiftCard
+23:49:06.327 [main] INFO  testCases.TC001 - The user selects the Price
+23:49:07.229 [main] INFO  testCases.TC001 - The user selects the Date
+23:49:07.499 [main] INFO  testCases.TC001 - The user selects Next
+23:49:09.333 [main] INFO  testCases.TC001 - The user enters To's Details 
+23:49:10.818 [main] INFO  testCases.TC001 - The user enters From's Details 
+23:49:14.122 [main] INFO  testCases.TC001 - The user clicks confirm after entering invalid email address and checks for error message
+23:49:18.811 [main] INFO  testCases.TC001 - The user enters To's Details 
+23:49:20.031 [main] INFO  testCases.TC001 - The user enters From's Details 
+23:49:23.223 [main] INFO  testCases.TC001 - The user clicks confirm after entering valid email address and checks for Confirmation
+23:54:46.146 [main] INFO  testCases.TC001 - ***** Starting TC001 *****
+23:54:46.163 [main] INFO  testCases.TC001 - User searches for BookShelves
+23:54:50.760 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:54:54.222 [main] INFO  testCases.TC001 - The PopUp is closed
+23:54:55.281 [main] INFO  testCases.TC001 - User selects the BookShelves from Category
+23:54:56.731 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:55:02.230 [main] INFO  testCases.TC001 - The User checks the options available in the Living Sub Menu
+23:55:19.850 [main] INFO  testCases.TC001 - The User prints the details available in the Living sub menu
+23:55:21.812 [main] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:57:10.201 [main] INFO  testCases.TC001 - ***** Starting TC001 *****
+23:57:10.246 [main] INFO  testCases.TC001 - User searches for BookShelves
+23:57:14.418 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:57:17.731 [main] INFO  testCases.TC001 - The PopUp is closed
+23:57:18.866 [main] INFO  testCases.TC001 - User selects the BookShelves from Category
+23:57:21.231 [main] INFO  testCases.TC001 - User selects the Price range from the Slider
+23:57:21.557 [main] INFO  testCases.TC001 - User selects the Out Of Stock options
+23:57:22.260 [main] INFO  testCases.TC001 - User selects the Order from Recommended
+23:57:31.474 [main] INFO  testCases.TC001 - User prints the details of First three Products
+23:57:31.488 [main] INFO  testCases.TC001 - ***** Starting TC002 *****
+23:57:31.973 [main] INFO  testCases.TC001 - The User checks the options available in the Living Sub Menu
+23:57:38.915 [main] INFO  testCases.TC001 - The User prints the details available in the Living sub menu
+23:57:52.370 [main] INFO  testCases.TC001 - The User clicks the Gift Card options
+23:57:52.397 [main] INFO  testCases.TC001 - ***** Starting TC004 *****
+23:57:53.425 [main] INFO  testCases.TC001 - The user selects the Birthday GiftCard
+23:57:54.145 [main] INFO  testCases.TC001 - The user selects the Price
+23:57:55.218 [main] INFO  testCases.TC001 - The user selects the Date
+23:57:55.476 [main] INFO  testCases.TC001 - The user selects Next
+23:58:00.666 [main] INFO  testCases.TC001 - The user enters To's Details 
+23:58:02.247 [main] INFO  testCases.TC001 - The user enters From's Details 
+23:58:05.580 [main] INFO  testCases.TC001 - The user clicks confirm after entering invalid email address and checks for error message
+23:58:11.198 [main] INFO  testCases.TC001 - The user enters To's Details 
+23:58:12.924 [main] INFO  testCases.TC001 - The user enters From's Details 
+23:58:16.181 [main] INFO  testCases.TC001 - The user clicks confirm after entering valid email address and checks for Confirmation
+09:34:50.603 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+09:34:50.615 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+09:35:00.869 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+09:35:34.202 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+09:35:38.258 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+09:35:38.318 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+09:36:12.663 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+09:36:12.678 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+09:36:18.168 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+09:36:21.335 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+09:36:22.467 [main] INFO  testCases.TC001_HomePage - User selects the BookShelves from Category
+09:36:25.963 [main] INFO  testCases.TC001_HomePage - User selects the Price range from the Slider
+09:36:26.404 [main] INFO  testCases.TC001_HomePage - User selects the Out Of Stock options
+09:36:27.465 [main] INFO  testCases.TC001_HomePage - User selects the Order from Recommended
+09:36:45.704 [main] INFO  testCases.TC001_HomePage - User prints the details of First three Products
+09:36:45.720 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+09:36:46.179 [main] INFO  testCases.TC001_HomePage - The User checks the options available in the Living Sub Menu
+09:36:55.832 [main] INFO  testCases.TC001_HomePage - The User prints the details available in the Living sub menu
+09:37:33.375 [main] INFO  testCases.TC001_HomePage - The User clicks the Gift Card options
+09:37:33.389 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+09:37:34.215 [main] INFO  testCases.TC001_HomePage - The user selects the Birthday GiftCard
+09:37:34.708 [main] INFO  testCases.TC001_HomePage - The user selects the Price
+09:37:36.186 [main] INFO  testCases.TC001_HomePage - The user selects the Date
+09:37:36.531 [main] INFO  testCases.TC001_HomePage - The user selects Next
+09:37:38.887 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+09:37:41.559 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+09:37:44.897 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering invalid email address and checks for error message
+09:37:50.209 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+09:37:51.805 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+09:37:55.128 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering valid email address and checks for Confirmation
+09:54:10.170 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+09:54:10.186 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+09:54:15.945 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+09:54:18.941 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+09:54:20.262 [main] INFO  testCases.TC001_HomePage - User selects the BookShelves from Category
+09:54:22.656 [main] INFO  testCases.TC001_HomePage - User selects the Out Of Stock options
+09:54:28.365 [main] INFO  testCases.TC001_HomePage - User selects the Order from Recommended
+09:54:44.387 [main] INFO  testCases.TC001_HomePage - User prints the details of First three Products
+09:54:44.408 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+09:54:50.037 [main] INFO  testCases.TC001_HomePage - The User checks the options available in the Living Sub Menu
+09:55:07.049 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+09:58:14.961 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+09:58:14.975 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+09:58:20.154 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+09:58:22.989 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+09:58:25.643 [main] INFO  testCases.TC001_HomePage - User selects the BookShelves from Category
+09:58:47.809 [main] INFO  testCases.TC001_HomePage - User selects the Out Of Stock options
+09:58:48.396 [main] INFO  testCases.TC001_HomePage - User selects the Order from Recommended
+09:58:56.367 [main] INFO  testCases.TC001_HomePage - User prints the details of First three Products
+09:58:56.405 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+09:58:56.836 [main] INFO  testCases.TC001_HomePage - The User checks the options available in the Living Sub Menu
+09:59:07.721 [main] INFO  testCases.TC001_HomePage - The User prints the details available in the Living sub menu
+09:59:17.809 [main] INFO  testCases.TC001_HomePage - The User clicks the Gift Card options
+09:59:17.829 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+09:59:18.620 [main] INFO  testCases.TC001_HomePage - The user selects the Birthday GiftCard
+09:59:19.013 [main] INFO  testCases.TC001_HomePage - The user selects the Price
+09:59:20.041 [main] INFO  testCases.TC001_HomePage - The user selects the Date
+09:59:20.313 [main] INFO  testCases.TC001_HomePage - The user selects Next
+10:01:31.248 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+10:01:31.264 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+10:01:34.570 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:01:37.318 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+10:01:38.534 [main] INFO  testCases.TC001_HomePage - User selects the BookShelves from Category
+10:01:43.630 [main] INFO  testCases.TC001_HomePage - User selects the Out Of Stock options
+10:02:01.783 [main] INFO  testCases.TC001_HomePage - User selects the Order from Recommended
+10:02:11.903 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:02:12.027 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+10:04:26.983 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+10:04:26.993 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+10:04:37.580 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:04:39.335 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+10:04:40.853 [main] INFO  testCases.TC001_HomePage - User selects the BookShelves from Category
+10:04:46.590 [main] INFO  testCases.TC001_HomePage - User selects the Price range from the Slider
+10:04:48.510 [main] INFO  testCases.TC001_HomePage - User selects the Out Of Stock options
+10:04:49.203 [main] INFO  testCases.TC001_HomePage - User selects the Order from Recommended
+10:05:01.526 [main] INFO  testCases.TC001_HomePage - User prints the details of First three Products
+10:05:01.543 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:05:01.969 [main] INFO  testCases.TC001_HomePage - The User checks the options available in the Living Sub Menu
+10:05:19.050 [main] INFO  testCases.TC001_HomePage - The User prints the details available in the Living sub menu
+10:05:31.889 [main] INFO  testCases.TC001_HomePage - The User clicks the Gift Card options
+10:05:31.907 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+10:05:33.177 [main] INFO  testCases.TC001_HomePage - The user selects the Birthday GiftCard
+10:05:33.798 [main] INFO  testCases.TC001_HomePage - The user selects the Price
+10:05:35.050 [main] INFO  testCases.TC001_HomePage - The user selects the Date
+10:05:35.499 [main] INFO  testCases.TC001_HomePage - The user selects Next
+10:08:48.715 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+10:08:48.746 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+10:09:39.614 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:09:41.877 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+10:09:43.803 [main] INFO  testCases.TC001_HomePage - User selects the BookShelves from Category
+10:09:48.841 [main] INFO  testCases.TC001_HomePage - User selects the Price range from the Slider
+10:09:49.300 [main] INFO  testCases.TC001_HomePage - User selects the Out Of Stock options
+10:09:49.890 [main] INFO  testCases.TC001_HomePage - User selects the Order from Recommended
+10:09:57.642 [main] INFO  testCases.TC001_HomePage - User prints the details of First three Products
+10:09:57.662 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:09:58.072 [main] INFO  testCases.TC001_HomePage - The User checks the options available in the Living Sub Menu
+10:10:03.242 [main] INFO  testCases.TC001_HomePage - The User prints the details available in the Living sub menu
+10:10:19.405 [main] INFO  testCases.TC001_HomePage - The User clicks the Gift Card options
+10:10:19.426 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+10:10:20.162 [main] INFO  testCases.TC001_HomePage - The user selects the Birthday GiftCard
+10:10:20.588 [main] INFO  testCases.TC001_HomePage - The user selects the Price
+10:10:21.588 [main] INFO  testCases.TC001_HomePage - The user selects the Date
+10:10:21.893 [main] INFO  testCases.TC001_HomePage - The user selects Next
+10:10:24.389 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+10:10:26.596 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+10:10:29.910 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering invalid email address and checks for error message
+10:10:34.669 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+10:10:36.015 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+10:10:39.266 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering valid email address and checks for Confirmation
+10:12:47.949 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+10:12:47.978 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+10:12:55.478 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:12:55.904 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+10:12:58.872 [main] INFO  testCases.TC001_HomePage - User selects the BookShelves from Category
+10:13:01.007 [main] INFO  testCases.TC001_HomePage - User selects the Price range from the Slider
+10:13:02.269 [main] INFO  testCases.TC001_HomePage - User selects the Out Of Stock options
+10:13:04.964 [main] INFO  testCases.TC001_HomePage - User selects the Order from Recommended
+10:13:13.367 [main] INFO  testCases.TC001_HomePage - User prints the details of First three Products
+10:13:14.173 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:13:14.898 [main] INFO  testCases.TC001_HomePage - The User checks the options available in the Living Sub Menu
+10:13:44.336 [main] INFO  testCases.TC001_HomePage - The User prints the details available in the Living sub menu
+10:13:59.510 [main] INFO  testCases.TC001_HomePage - The User clicks the Gift Card options
+10:14:00.674 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+10:14:01.349 [main] INFO  testCases.TC001_HomePage - The user selects the Birthday GiftCard
+10:14:02.168 [main] INFO  testCases.TC001_HomePage - The user selects the Price
+10:14:03.437 [main] INFO  testCases.TC001_HomePage - The user selects the Date
+10:14:04.127 [main] INFO  testCases.TC001_HomePage - The user selects Next
+10:14:06.584 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+10:14:08.086 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+10:14:11.336 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering invalid email address and checks for error message
+10:14:18.814 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+10:14:20.477 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+10:14:23.698 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering valid email address and checks for Confirmation
+10:15:59.801 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+10:15:59.814 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+10:16:06.940 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:16:07.892 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+10:16:09.272 [main] INFO  testCases.TC001_HomePage - User selects the BookShelves from Category
+10:16:11.004 [main] INFO  testCases.TC001_HomePage - User selects the Price range from the Slider
+10:16:11.760 [main] INFO  testCases.TC001_HomePage - User selects the Out Of Stock options
+10:16:12.606 [main] INFO  testCases.TC001_HomePage - User selects the Order from Recommended
+10:16:20.764 [main] INFO  testCases.TC001_HomePage - User prints the details of First three Products
+10:16:21.412 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:16:21.766 [main] INFO  testCases.TC001_HomePage - The User checks the options available in the Living Sub Menu
+10:16:34.031 [main] INFO  testCases.TC001_HomePage - The User prints the details available in the Living sub menu
+10:16:55.395 [main] INFO  testCases.TC001_HomePage - The User clicks the Gift Card options
+10:16:56.979 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+10:16:58.732 [main] INFO  testCases.TC001_HomePage - The user selects the Birthday GiftCard
+10:16:59.553 [main] INFO  testCases.TC001_HomePage - The user selects the Price
+10:17:01.056 [main] INFO  testCases.TC001_HomePage - The user selects the Date
+10:17:01.819 [main] INFO  testCases.TC001_HomePage - The user selects Next
+10:17:05.183 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+10:17:06.749 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+10:17:10.092 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering invalid email address and checks for error message
+10:17:15.555 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+10:17:16.862 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+10:17:20.174 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering valid email address and checks for Confirmation
+10:19:32.045 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+10:19:32.106 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+10:19:40.759 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:19:42.512 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+10:19:44.430 [main] INFO  testCases.TC001_HomePage - User selects the BookShelves from Category
+10:19:47.727 [main] INFO  testCases.TC001_HomePage - User selects the Price range from the Slider
+10:19:51.342 [main] INFO  testCases.TC001_HomePage - User selects the Out Of Stock options
+10:19:55.281 [main] INFO  testCases.TC001_HomePage - User selects the Order from Recommended
+10:20:11.225 [main] INFO  testCases.TC001_HomePage - User prints the details of First three Products
+10:20:11.925 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+10:20:12.489 [main] INFO  testCases.TC001_HomePage - The User checks the options available in the Living Sub Menu
+10:20:24.977 [main] INFO  testCases.TC001_HomePage - The User prints the details available in the Living sub menu
+10:20:48.062 [main] INFO  testCases.TC001_HomePage - The User clicks the Gift Card options
+10:20:48.447 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+10:21:42.448 [main] INFO  testCases.TC001_HomePage - The user selects the Birthday GiftCard
+10:21:43.472 [main] INFO  testCases.TC001_HomePage - The user selects the Price
+10:21:45.224 [main] INFO  testCases.TC001_HomePage - The user selects the Date
+10:21:46.059 [main] INFO  testCases.TC001_HomePage - The user selects Next
+10:21:49.560 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+10:21:51.926 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+10:21:55.250 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering invalid email address and checks for error message
+10:22:00.615 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+10:22:01.898 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+10:22:05.164 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering valid email address and checks for Confirmation
+15:18:29.557 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+15:18:29.608 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+15:18:37.265 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+15:18:57.403 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+16:39:11.788 [main] INFO  testCases.TC001_HomePage - ***** Starting TC001 *****
+16:39:11.800 [main] INFO  testCases.TC001_HomePage - User searches for BookShelves
+16:39:17.799 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+16:39:19.464 [main] INFO  testCases.TC001_HomePage - The PopUp is closed
+16:39:21.377 [main] INFO  testCases.TC001_HomePage - User selects the BookShelves from Category
+16:39:25.020 [main] INFO  testCases.TC001_HomePage - User selects the Price range from the Slider
+16:39:26.635 [main] INFO  testCases.TC001_HomePage - User selects the Out Of Stock options
+16:39:28.381 [main] INFO  testCases.TC001_HomePage - User selects the Order from Recommended
+16:39:37.238 [main] INFO  testCases.TC001_HomePage - User prints the details of First three Products
+16:39:37.974 [main] INFO  testCases.TC001_HomePage - ***** Starting TC002 *****
+16:39:38.634 [main] INFO  testCases.TC001_HomePage - The User checks the options available in the Living Sub Menu
+16:39:45.782 [main] INFO  testCases.TC001_HomePage - The User prints the details available in the Living sub menu
+16:39:50.547 [main] INFO  testCases.TC001_HomePage - The User clicks the Gift Card options
+16:39:51.749 [main] INFO  testCases.TC001_HomePage - ***** Starting TC004 *****
+16:39:52.402 [main] INFO  testCases.TC001_HomePage - The user selects the Birthday GiftCard
+16:39:53.077 [main] INFO  testCases.TC001_HomePage - The user selects the Price
+16:39:54.130 [main] INFO  testCases.TC001_HomePage - The user selects the Date
+16:39:54.837 [main] INFO  testCases.TC001_HomePage - The user selects Next
+16:40:01.608 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+16:40:04.571 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+16:40:23.444 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering invalid email address and checks for error message
+16:40:28.933 [main] INFO  testCases.TC001_HomePage - The user enters To's Details 
+16:40:30.620 [main] INFO  testCases.TC001_HomePage - The user enters From's Details 
+16:40:33.831 [main] INFO  testCases.TC001_HomePage - The user clicks confirm after entering valid email address and checks for Confirmation
