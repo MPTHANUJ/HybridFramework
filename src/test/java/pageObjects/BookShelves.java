@@ -97,7 +97,7 @@ public class BookShelves extends BasePage{
 		
 		act = new Actions(driver);
 		
-		BaseClass.ExplicitilyWait(driver,Duration.ofSeconds(20),PriceRange);
+		BaseClass.ExplicitilyWait(driver,Duration.ofSeconds(30),PriceRange);
 		
 		act.moveToElement(PriceRange).click().dragAndDropBy(PriceRange,-212,0).perform();
 	}

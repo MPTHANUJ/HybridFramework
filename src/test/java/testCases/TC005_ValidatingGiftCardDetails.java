@@ -8,7 +8,7 @@ import utilities.DataProviders;
 
 public class TC005_ValidatingGiftCardDetails extends BaseClass{
 
-	@Test(priority=15,dataProvider="Details",dataProviderClass = DataProviders.class,groups={"regression","master"})
+	@Test(priority=15,dataProvider="Details",dataProviderClass = DataProviders.class,groups={"smoke","master"})
 	public void ValidatingDetails(String RName,String REmail,String RMobile,String SName,String SEmail,String SMobile,String SAddress,String SPincode,String Res) throws InterruptedException {
 		
 		GC = new GiftCards(driver);

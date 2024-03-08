@@ -8,7 +8,7 @@ import utilities.DataProviders;
 
 public class TC004_GiftCards extends BaseClass{
 	
-	@Test(priority=11,groups={"regression","master"})
+	@Test(priority=11,groups={"smoke","master"})
 	public void SelectGiftCard() throws InterruptedException {
 		
 		GC = new GiftCards(driver);
@@ -18,14 +18,14 @@ public class TC004_GiftCards extends BaseClass{
 		logger.info("The user selects the Birthday GiftCard");
 	}
 	
-	@Test(priority=12,groups={"regression","master"})
+	@Test(priority=12,groups={"smoke","master"})
 	public void SelectPriceOfGiftCard() {
 		
 		GC.clickPrice();
 		logger.info("The user selects the Price");
 	}
 	
-	@Test(priority=13,groups={"regression","master"})
+	@Test(priority=13,groups={"smoke","master"})
 	public void SelectDate() {
 		
 		GC.Customize();
@@ -33,7 +33,7 @@ public class TC004_GiftCards extends BaseClass{
 		
 	}
 	
-	@Test(priority=14,groups={"regression","master"})
+	@Test(priority=14,groups={"smoke","master"})
 	public void SelectNext() {
 		
 		GC.clickNext();

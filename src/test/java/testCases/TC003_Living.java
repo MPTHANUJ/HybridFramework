@@ -9,7 +9,7 @@ import testBase.BaseClass;
 
 public class TC003_Living extends BaseClass{
 
-	@Test(priority=8,groups={"regression","master"})
+	@Test(priority=8,groups={"smoke","master"})
 	public void SelectLivingSubMenu() throws InterruptedException, IOException {
 		
 		LV = new Living(driver);
@@ -19,7 +19,7 @@ public class TC003_Living extends BaseClass{
 		logger.info("The User checks the options available in the Living Sub Menu");
 	}
 	
-	@Test(priority=9,groups={"regression","master"})
+	@Test(priority=9,groups={"smoke","master"})
 	public void PrintDetailsInSubMenu() throws IOException {
 		
 		LV.printSeatingChairs();

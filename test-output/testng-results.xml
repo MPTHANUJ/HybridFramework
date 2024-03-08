@@ -1,107 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="24" passed="16" failed="0" skipped="0">
+<testng-results ignored="8" total="24" passed="15" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-26T16:38:55 IST" name="Suite" finished-at="2024-02-26T16:40:38 IST" duration-ms="103860">
+  <suite started-at="2024-03-04T15:58:03 IST" name="Suite" finished-at="2024-03-04T15:59:39 IST" duration-ms="96117">
     <groups>
       <group name="regression">
-        <method signature="TC002_BookShelves.Closing_Popup()[pri:2, instance:testCases.TC002_BookShelves@4dbb42b7]" name="Closing_Popup" class="testCases.TC002_BookShelves"/>
-        <method signature="TC002_BookShelves.PrintProductDetails()[pri:7, instance:testCases.TC002_BookShelves@4dbb42b7]" name="PrintProductDetails" class="testCases.TC002_BookShelves"/>
-        <method signature="TC002_BookShelves.SelectOrderRange()[pri:6, instance:testCases.TC002_BookShelves@4dbb42b7]" name="SelectOrderRange" class="testCases.TC002_BookShelves"/>
-        <method signature="TC002_BookShelves.Select_Category()[pri:3, instance:testCases.TC002_BookShelves@4dbb42b7]" name="Select_Category" class="testCases.TC002_BookShelves"/>
-        <method signature="TC002_BookShelves.Select_PriceRange()[pri:4, instance:testCases.TC002_BookShelves@4dbb42b7]" name="Select_PriceRange" class="testCases.TC002_BookShelves"/>
-        <method signature="TC002_BookShelves.SelectoutOfStock()[pri:5, instance:testCases.TC002_BookShelves@4dbb42b7]" name="SelectoutOfStock" class="testCases.TC002_BookShelves"/>
-        <method signature="TC003_Living.PrintDetailsInSubMenu()[pri:9, instance:testCases.TC003_Living@21282ed8]" name="PrintDetailsInSubMenu" class="testCases.TC003_Living"/>
-        <method signature="TC003_Living.SelectGiftCards()[pri:10, instance:testCases.TC003_Living@21282ed8]" name="SelectGiftCards" class="testCases.TC003_Living"/>
-        <method signature="TC003_Living.SelectLivingSubMenu()[pri:8, instance:testCases.TC003_Living@21282ed8]" name="SelectLivingSubMenu" class="testCases.TC003_Living"/>
-        <method signature="TC004_GiftCards.SelectDate()[pri:13, instance:testCases.TC004_GiftCards@36916eb0]" name="SelectDate" class="testCases.TC004_GiftCards"/>
-        <method signature="TC004_GiftCards.SelectGiftCard()[pri:11, instance:testCases.TC004_GiftCards@36916eb0]" name="SelectGiftCard" class="testCases.TC004_GiftCards"/>
-        <method signature="TC004_GiftCards.SelectNext()[pri:14, instance:testCases.TC004_GiftCards@36916eb0]" name="SelectNext" class="testCases.TC004_GiftCards"/>
-        <method signature="TC004_GiftCards.SelectPriceOfGiftCard()[pri:12, instance:testCases.TC004_GiftCards@36916eb0]" name="SelectPriceOfGiftCard" class="testCases.TC004_GiftCards"/>
-        <method signature="TC005_ValidatingGiftCardDetails.ValidatingDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:15, instance:testCases.TC005_ValidatingGiftCardDetails@7bab3f1a]" name="ValidatingDetails" class="testCases.TC005_ValidatingGiftCardDetails"/>
+        <method signature="TC002_BookShelves.Closing_Popup()[pri:2, instance:testCases.TC002_BookShelves@194bcebf]" name="Closing_Popup" class="testCases.TC002_BookShelves"/>
+        <method signature="TC002_BookShelves.PrintProductDetails()[pri:7, instance:testCases.TC002_BookShelves@194bcebf]" name="PrintProductDetails" class="testCases.TC002_BookShelves"/>
+        <method signature="TC002_BookShelves.SelectOrderRange()[pri:6, instance:testCases.TC002_BookShelves@194bcebf]" name="SelectOrderRange" class="testCases.TC002_BookShelves"/>
+        <method signature="TC002_BookShelves.Select_Category()[pri:3, instance:testCases.TC002_BookShelves@194bcebf]" name="Select_Category" class="testCases.TC002_BookShelves"/>
+        <method signature="TC002_BookShelves.Select_PriceRange()[pri:4, instance:testCases.TC002_BookShelves@194bcebf]" name="Select_PriceRange" class="testCases.TC002_BookShelves"/>
+        <method signature="TC002_BookShelves.SelectoutOfStock()[pri:5, instance:testCases.TC002_BookShelves@194bcebf]" name="SelectoutOfStock" class="testCases.TC002_BookShelves"/>
+        <method signature="TC003_Living.PrintDetailsInSubMenu()[pri:9, instance:testCases.TC003_Living@4803b726]" name="PrintDetailsInSubMenu" class="testCases.TC003_Living"/>
+        <method signature="TC003_Living.SelectGiftCards()[pri:10, instance:testCases.TC003_Living@4803b726]" name="SelectGiftCards" class="testCases.TC003_Living"/>
+        <method signature="TC003_Living.SelectLivingSubMenu()[pri:8, instance:testCases.TC003_Living@4803b726]" name="SelectLivingSubMenu" class="testCases.TC003_Living"/>
+        <method signature="TC004_GiftCards.SelectDate()[pri:13, instance:testCases.TC004_GiftCards@ffaa6af]" name="SelectDate" class="testCases.TC004_GiftCards"/>
+        <method signature="TC004_GiftCards.SelectGiftCard()[pri:11, instance:testCases.TC004_GiftCards@ffaa6af]" name="SelectGiftCard" class="testCases.TC004_GiftCards"/>
+        <method signature="TC004_GiftCards.SelectNext()[pri:14, instance:testCases.TC004_GiftCards@ffaa6af]" name="SelectNext" class="testCases.TC004_GiftCards"/>
+        <method signature="TC004_GiftCards.SelectPriceOfGiftCard()[pri:12, instance:testCases.TC004_GiftCards@ffaa6af]" name="SelectPriceOfGiftCard" class="testCases.TC004_GiftCards"/>
+        <method signature="TC005_ValidatingGiftCardDetails.ValidatingDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:15, instance:testCases.TC005_ValidatingGiftCardDetails@53ce1329]" name="ValidatingDetails" class="testCases.TC005_ValidatingGiftCardDetails"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TC001_HomePage.Searching_Bookshleves()[pri:1, instance:testCases.TC001_HomePage@316bcf94]" name="Searching_Bookshleves" class="testCases.TC001_HomePage"/>
+        <method signature="TC001_HomePage.Searching_Bookshleves()[pri:1, instance:testCases.TC001_HomePage@5b03b9fe]" name="Searching_Bookshleves" class="testCases.TC001_HomePage"/>
       </group> <!-- smoke -->
       <group name="master">
-        <method signature="TC001_HomePage.Searching_Bookshleves()[pri:1, instance:testCases.TC001_HomePage@316bcf94]" name="Searching_Bookshleves" class="testCases.TC001_HomePage"/>
-        <method signature="TC002_BookShelves.Closing_Popup()[pri:2, instance:testCases.TC002_BookShelves@4dbb42b7]" name="Closing_Popup" class="testCases.TC002_BookShelves"/>
-        <method signature="TC002_BookShelves.PrintProductDetails()[pri:7, instance:testCases.TC002_BookShelves@4dbb42b7]" name="PrintProductDetails" class="testCases.TC002_BookShelves"/>
-        <method signature="TC002_BookShelves.SelectOrderRange()[pri:6, instance:testCases.TC002_BookShelves@4dbb42b7]" name="SelectOrderRange" class="testCases.TC002_BookShelves"/>
-        <method signature="TC002_BookShelves.Select_Category()[pri:3, instance:testCases.TC002_BookShelves@4dbb42b7]" name="Select_Category" class="testCases.TC002_BookShelves"/>
-        <method signature="TC002_BookShelves.Select_PriceRange()[pri:4, instance:testCases.TC002_BookShelves@4dbb42b7]" name="Select_PriceRange" class="testCases.TC002_BookShelves"/>
-        <method signature="TC002_BookShelves.SelectoutOfStock()[pri:5, instance:testCases.TC002_BookShelves@4dbb42b7]" name="SelectoutOfStock" class="testCases.TC002_BookShelves"/>
-        <method signature="TC003_Living.PrintDetailsInSubMenu()[pri:9, instance:testCases.TC003_Living@21282ed8]" name="PrintDetailsInSubMenu" class="testCases.TC003_Living"/>
-        <method signature="TC003_Living.SelectGiftCards()[pri:10, instance:testCases.TC003_Living@21282ed8]" name="SelectGiftCards" class="testCases.TC003_Living"/>
-        <method signature="TC003_Living.SelectLivingSubMenu()[pri:8, instance:testCases.TC003_Living@21282ed8]" name="SelectLivingSubMenu" class="testCases.TC003_Living"/>
-        <method signature="TC004_GiftCards.SelectDate()[pri:13, instance:testCases.TC004_GiftCards@36916eb0]" name="SelectDate" class="testCases.TC004_GiftCards"/>
-        <method signature="TC004_GiftCards.SelectGiftCard()[pri:11, instance:testCases.TC004_GiftCards@36916eb0]" name="SelectGiftCard" class="testCases.TC004_GiftCards"/>
-        <method signature="TC004_GiftCards.SelectNext()[pri:14, instance:testCases.TC004_GiftCards@36916eb0]" name="SelectNext" class="testCases.TC004_GiftCards"/>
-        <method signature="TC004_GiftCards.SelectPriceOfGiftCard()[pri:12, instance:testCases.TC004_GiftCards@36916eb0]" name="SelectPriceOfGiftCard" class="testCases.TC004_GiftCards"/>
-        <method signature="TC005_ValidatingGiftCardDetails.ValidatingDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:15, instance:testCases.TC005_ValidatingGiftCardDetails@7bab3f1a]" name="ValidatingDetails" class="testCases.TC005_ValidatingGiftCardDetails"/>
+        <method signature="TC001_HomePage.Searching_Bookshleves()[pri:1, instance:testCases.TC001_HomePage@5b03b9fe]" name="Searching_Bookshleves" class="testCases.TC001_HomePage"/>
+        <method signature="TC002_BookShelves.Closing_Popup()[pri:2, instance:testCases.TC002_BookShelves@194bcebf]" name="Closing_Popup" class="testCases.TC002_BookShelves"/>
+        <method signature="TC002_BookShelves.PrintProductDetails()[pri:7, instance:testCases.TC002_BookShelves@194bcebf]" name="PrintProductDetails" class="testCases.TC002_BookShelves"/>
+        <method signature="TC002_BookShelves.SelectOrderRange()[pri:6, instance:testCases.TC002_BookShelves@194bcebf]" name="SelectOrderRange" class="testCases.TC002_BookShelves"/>
+        <method signature="TC002_BookShelves.Select_Category()[pri:3, instance:testCases.TC002_BookShelves@194bcebf]" name="Select_Category" class="testCases.TC002_BookShelves"/>
+        <method signature="TC002_BookShelves.Select_PriceRange()[pri:4, instance:testCases.TC002_BookShelves@194bcebf]" name="Select_PriceRange" class="testCases.TC002_BookShelves"/>
+        <method signature="TC002_BookShelves.SelectoutOfStock()[pri:5, instance:testCases.TC002_BookShelves@194bcebf]" name="SelectoutOfStock" class="testCases.TC002_BookShelves"/>
+        <method signature="TC003_Living.PrintDetailsInSubMenu()[pri:9, instance:testCases.TC003_Living@4803b726]" name="PrintDetailsInSubMenu" class="testCases.TC003_Living"/>
+        <method signature="TC003_Living.SelectGiftCards()[pri:10, instance:testCases.TC003_Living@4803b726]" name="SelectGiftCards" class="testCases.TC003_Living"/>
+        <method signature="TC003_Living.SelectLivingSubMenu()[pri:8, instance:testCases.TC003_Living@4803b726]" name="SelectLivingSubMenu" class="testCases.TC003_Living"/>
+        <method signature="TC004_GiftCards.SelectDate()[pri:13, instance:testCases.TC004_GiftCards@ffaa6af]" name="SelectDate" class="testCases.TC004_GiftCards"/>
+        <method signature="TC004_GiftCards.SelectGiftCard()[pri:11, instance:testCases.TC004_GiftCards@ffaa6af]" name="SelectGiftCard" class="testCases.TC004_GiftCards"/>
+        <method signature="TC004_GiftCards.SelectNext()[pri:14, instance:testCases.TC004_GiftCards@ffaa6af]" name="SelectNext" class="testCases.TC004_GiftCards"/>
+        <method signature="TC004_GiftCards.SelectPriceOfGiftCard()[pri:12, instance:testCases.TC004_GiftCards@ffaa6af]" name="SelectPriceOfGiftCard" class="testCases.TC004_GiftCards"/>
+        <method signature="TC005_ValidatingGiftCardDetails.ValidatingDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:15, instance:testCases.TC005_ValidatingGiftCardDetails@53ce1329]" name="ValidatingDetails" class="testCases.TC005_ValidatingGiftCardDetails"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-02-26T16:38:55 IST" name="Test" finished-at="2024-02-26T16:40:38 IST" duration-ms="103860">
+    <test started-at="2024-03-04T15:58:03 IST" name="Test" finished-at="2024-03-04T15:59:39 IST" duration-ms="96117">
       <class name="testCases.TC002_BookShelves">
-        <test-method signature="Closing_Popup()[pri:2, instance:testCases.TC002_BookShelves@4dbb42b7]" started-at="2024-02-26T16:39:17 IST" name="Closing_Popup" finished-at="2024-02-26T16:39:19 IST" duration-ms="1731" status="PASS">
+        <test-method signature="Closing_Popup()[pri:2, instance:testCases.TC002_BookShelves@194bcebf]" started-at="2024-03-04T15:58:50 IST" name="Closing_Popup" finished-at="2024-03-04T15:58:52 IST" duration-ms="2201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closing_Popup -->
-        <test-method signature="Select_Category()[pri:3, instance:testCases.TC002_BookShelves@4dbb42b7]" started-at="2024-02-26T16:39:20 IST" name="Select_Category" finished-at="2024-02-26T16:39:21 IST" duration-ms="891" status="PASS">
+        <test-method signature="Select_Category()[pri:3, instance:testCases.TC002_BookShelves@194bcebf]" started-at="2024-03-04T15:58:53 IST" name="Select_Category" finished-at="2024-03-04T15:58:54 IST" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_Category -->
-        <test-method signature="Select_PriceRange()[pri:4, instance:testCases.TC002_BookShelves@4dbb42b7]" started-at="2024-02-26T16:39:22 IST" name="Select_PriceRange" finished-at="2024-02-26T16:39:25 IST" duration-ms="2746" status="PASS">
+        <test-method signature="Select_PriceRange()[pri:4, instance:testCases.TC002_BookShelves@194bcebf]" started-at="2024-03-04T15:58:54 IST" name="Select_PriceRange" finished-at="2024-03-04T15:58:56 IST" duration-ms="1623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Select_PriceRange -->
-        <test-method signature="SelectoutOfStock()[pri:5, instance:testCases.TC002_BookShelves@4dbb42b7]" started-at="2024-02-26T16:39:25 IST" name="SelectoutOfStock" finished-at="2024-02-26T16:39:26 IST" duration-ms="916" status="PASS">
+        <test-method signature="SelectoutOfStock()[pri:5, instance:testCases.TC002_BookShelves@194bcebf]" started-at="2024-03-04T15:58:56 IST" name="SelectoutOfStock" finished-at="2024-03-04T15:58:58 IST" duration-ms="1955" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="option" data-option-key="In Stock Only" data-option-name="In Stock Only">...</div> is not clickable at point (891, 17). Other element would receive the click: <div class="optionsdata line clearfix">...</div>
+  (Session info: chrome=118.0.5993.71)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [723ed237e431d46378702bbf905bc297, clickElement {id=D86AE39F6D03EF770DC795B9EF7B68F2_element_192}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\2303723\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.66.137.6:4444/sessi..., se:cdpVersion: 118.0.5993.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (723ed237e431d46378702bbf905bc297)] -> xpath: //div[@class='option']]
+Session ID: 723ed237e431d46378702bbf905bc297]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="option" data-option-key="In Stock Only" data-option-name="In Stock Only">...</div> is not clickable at point (891, 17). Other element would receive the click: <div class="optionsdata line clearfix">...</div>
+  (Session info: chrome=118.0.5993.71)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [723ed237e431d46378702bbf905bc297, clickElement {id=D86AE39F6D03EF770DC795B9EF7B68F2_element_192}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\2303723\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.66.137.6:4444/sessi..., se:cdpVersion: 118.0.5993.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (723ed237e431d46378702bbf905bc297)] -> xpath: //div[@class='option']]
+Session ID: 723ed237e431d46378702bbf905bc297
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy48.click(Unknown Source)
+at pageObjects.BookShelves.selectoutOfStock(BookShelves.java:110)
+at testCases.TC002_BookShelves.SelectoutOfStock(TC002_BookShelves.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectoutOfStock -->
-        <test-method signature="SelectOrderRange()[pri:6, instance:testCases.TC002_BookShelves@4dbb42b7]" started-at="2024-02-26T16:39:27 IST" name="SelectOrderRange" finished-at="2024-02-26T16:39:28 IST" duration-ms="1086" status="PASS">
+        <test-method signature="SelectOrderRange()[pri:6, instance:testCases.TC002_BookShelves@194bcebf]" started-at="2024-03-04T15:58:59 IST" name="SelectOrderRange" finished-at="2024-03-04T15:58:59 IST" duration-ms="366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectOrderRange -->
-        <test-method signature="PrintProductDetails()[pri:7, instance:testCases.TC002_BookShelves@4dbb42b7]" started-at="2024-02-26T16:39:29 IST" name="PrintProductDetails" finished-at="2024-02-26T16:39:37 IST" duration-ms="8078" status="PASS">
+        <test-method signature="PrintProductDetails()[pri:7, instance:testCases.TC002_BookShelves@194bcebf]" started-at="2024-03-04T15:58:59 IST" name="PrintProductDetails" finished-at="2024-03-04T15:59:05 IST" duration-ms="5780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PrintProductDetails -->
       </class> <!-- testCases.TC002_BookShelves -->
       <class name="testCases.TC003_Living">
-        <test-method signature="SelectLivingSubMenu()[pri:8, instance:testCases.TC003_Living@21282ed8]" started-at="2024-02-26T16:39:37 IST" name="SelectLivingSubMenu" finished-at="2024-02-26T16:39:38 IST" duration-ms="670" status="PASS">
+        <test-method signature="SelectLivingSubMenu()[pri:8, instance:testCases.TC003_Living@4803b726]" started-at="2024-03-04T15:59:05 IST" name="SelectLivingSubMenu" finished-at="2024-03-04T15:59:06 IST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectLivingSubMenu -->
-        <test-method signature="PrintDetailsInSubMenu()[pri:9, instance:testCases.TC003_Living@21282ed8]" started-at="2024-02-26T16:39:39 IST" name="PrintDetailsInSubMenu" finished-at="2024-02-26T16:39:45 IST" duration-ms="6630" status="PASS">
+        <test-method signature="PrintDetailsInSubMenu()[pri:9, instance:testCases.TC003_Living@4803b726]" started-at="2024-03-04T15:59:06 IST" name="PrintDetailsInSubMenu" finished-at="2024-03-04T15:59:10 IST" duration-ms="3631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PrintDetailsInSubMenu -->
-        <test-method signature="SelectGiftCards()[pri:10, instance:testCases.TC003_Living@21282ed8]" started-at="2024-02-26T16:39:46 IST" name="SelectGiftCards" finished-at="2024-02-26T16:39:50 IST" duration-ms="4341" status="PASS">
+        <test-method signature="SelectGiftCards()[pri:10, instance:testCases.TC003_Living@4803b726]" started-at="2024-03-04T15:59:10 IST" name="SelectGiftCards" finished-at="2024-03-04T15:59:14 IST" duration-ms="3849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectGiftCards -->
       </class> <!-- testCases.TC003_Living -->
       <class name="testCases.TC004_GiftCards">
-        <test-method signature="SelectGiftCard()[pri:11, instance:testCases.TC004_GiftCards@36916eb0]" started-at="2024-02-26T16:39:51 IST" name="SelectGiftCard" finished-at="2024-02-26T16:39:52 IST" duration-ms="664" status="PASS">
+        <test-method signature="SelectGiftCard()[pri:11, instance:testCases.TC004_GiftCards@ffaa6af]" started-at="2024-03-04T15:59:15 IST" name="SelectGiftCard" finished-at="2024-03-04T15:59:15 IST" duration-ms="578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectGiftCard -->
-        <test-method signature="SelectPriceOfGiftCard()[pri:12, instance:testCases.TC004_GiftCards@36916eb0]" started-at="2024-02-26T16:39:52 IST" name="SelectPriceOfGiftCard" finished-at="2024-02-26T16:39:53 IST" duration-ms="265" status="PASS">
+        <test-method signature="SelectPriceOfGiftCard()[pri:12, instance:testCases.TC004_GiftCards@ffaa6af]" started-at="2024-03-04T15:59:16 IST" name="SelectPriceOfGiftCard" finished-at="2024-03-04T15:59:16 IST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectPriceOfGiftCard -->
-        <test-method signature="SelectDate()[pri:13, instance:testCases.TC004_GiftCards@36916eb0]" started-at="2024-02-26T16:39:53 IST" name="SelectDate" finished-at="2024-02-26T16:39:54 IST" duration-ms="596" status="PASS">
+        <test-method signature="SelectDate()[pri:13, instance:testCases.TC004_GiftCards@ffaa6af]" started-at="2024-03-04T15:59:16 IST" name="SelectDate" finished-at="2024-03-04T15:59:17 IST" duration-ms="579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectDate -->
-        <test-method signature="SelectNext()[pri:14, instance:testCases.TC004_GiftCards@36916eb0]" started-at="2024-02-26T16:39:54 IST" name="SelectNext" finished-at="2024-02-26T16:39:54 IST" duration-ms="173" status="PASS">
+        <test-method signature="SelectNext()[pri:14, instance:testCases.TC004_GiftCards@ffaa6af]" started-at="2024-03-04T15:59:17 IST" name="SelectNext" finished-at="2024-03-04T15:59:17 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectNext -->
       </class> <!-- testCases.TC004_GiftCards -->
       <class name="testCases.TC005_ValidatingGiftCardDetails">
-        <test-method signature="ValidatingDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:15, instance:testCases.TC005_ValidatingGiftCardDetails@7bab3f1a]" started-at="2024-02-26T16:39:56 IST" name="ValidatingDetails" data-provider="Details" finished-at="2024-02-26T16:40:27 IST" duration-ms="30916" status="PASS">
+        <test-method signature="ValidatingDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:15, instance:testCases.TC005_ValidatingGiftCardDetails@53ce1329]" started-at="2024-03-04T15:59:18 IST" name="ValidatingDetails" data-provider="Details" finished-at="2024-03-04T15:59:27 IST" duration-ms="8982" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,7 +226,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidatingDetails -->
-        <test-method signature="ValidatingDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:15, instance:testCases.TC005_ValidatingGiftCardDetails@7bab3f1a]" started-at="2024-02-26T16:40:28 IST" name="ValidatingDetails" data-provider="Details" finished-at="2024-02-26T16:40:36 IST" duration-ms="8727" status="PASS">
+        <test-method signature="ValidatingDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:15, instance:testCases.TC005_ValidatingGiftCardDetails@53ce1329]" started-at="2024-03-04T15:59:27 IST" name="ValidatingDetails" data-provider="Details" finished-at="2024-03-04T15:59:35 IST" duration-ms="7700" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -205,7 +279,7 @@
         </test-method> <!-- ValidatingDetails -->
       </class> <!-- testCases.TC005_ValidatingGiftCardDetails -->
       <class name="testCases.TC001_HomePage">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePage@316bcf94]" started-at="2024-02-26T16:38:55 IST" name="setup" finished-at="2024-02-26T16:39:11 IST" duration-ms="15588" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePage@5b03b9fe]" started-at="2024-03-04T15:58:04 IST" name="setup" finished-at="2024-03-04T15:58:45 IST" duration-ms="40873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,11 +295,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Searching_Bookshleves()[pri:1, instance:testCases.TC001_HomePage@316bcf94]" started-at="2024-02-26T16:39:11 IST" name="Searching_Bookshleves" finished-at="2024-02-26T16:39:16 IST" duration-ms="4649" status="PASS">
+        <test-method signature="Searching_Bookshleves()[pri:1, instance:testCases.TC001_HomePage@5b03b9fe]" started-at="2024-03-04T15:58:45 IST" name="Searching_Bookshleves" finished-at="2024-03-04T15:58:49 IST" duration-ms="3598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Searching_Bookshleves -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePage@316bcf94]" started-at="2024-02-26T16:40:37 IST" name="tearDown" finished-at="2024-02-26T16:40:38 IST" duration-ms="1324" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePage@5b03b9fe]" started-at="2024-03-04T15:59:36 IST" name="tearDown" finished-at="2024-03-04T15:59:39 IST" duration-ms="3637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

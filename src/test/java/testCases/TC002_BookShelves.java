@@ -18,7 +18,7 @@ public class TC002_BookShelves extends BaseClass{
 		logger.info("The PopUp is closed");
 	}
 	
-	@Test(priority=3,groups={"regression","master"})
+	@Test(priority=3,groups={"smoke","master"})
 	public void Select_Category() {
 		
 		BS.selectCategory();
@@ -26,7 +26,7 @@ public class TC002_BookShelves extends BaseClass{
 		logger.info("User selects the BookShelves from Category");
 	}
 	
-	@Test(priority=4,groups={"regression","master"})
+	@Test(priority=4,groups={"smoke","master"})
 	public void Select_PriceRange() {
 		
 		BS.selectPrice();
@@ -35,7 +35,7 @@ public class TC002_BookShelves extends BaseClass{
 		
 	}
 	
-	@Test(priority=5,groups={"regression","master"})
+	@Test(priority=5,groups={"smoke","master"})
 	public void SelectoutOfStock() {
 		
 		BS.selectoutOfStock();
@@ -43,7 +43,7 @@ public class TC002_BookShelves extends BaseClass{
 		
 	}
 	
-	@Test(priority=6,groups={"regression","master"})
+	@Test(priority=6,groups={"smoke","master"})
 	public void SelectOrderRange() {
 		
 		BS.selectRecommended();
@@ -52,7 +52,7 @@ public class TC002_BookShelves extends BaseClass{
 		
 	}
 	
-	@Test(priority=7,groups={"regression","master"})
+	@Test(priority=7,groups={"smoke","master"})
 	public void PrintProductDetails() throws InterruptedException, IOException {
 		
 		Thread.sleep(3000);

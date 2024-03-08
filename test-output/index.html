@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\2303723\OneDrive - Cognizant\Desktop\Eclipse\HackathonProject\Grouping.xml</span>
+                    <span>C:\Users\2303723\Downloads\Eclipse\HackathonProject\MasterTestng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">16 methods,   16 passed</span>
+                    <span class="method-stats">16 methods, 1 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_BookShelves" class="method navigator-link" hash-for-method="SelectoutOfStock">SelectoutOfStock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -169,17 +183,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC002_BookShelves" class="method navigator-link" hash-for-method="SelectoutOfStock">SelectoutOfStock</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.TC005_ValidatingGiftCardDetails" class="method navigator-link" hash-for-method="ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid)">ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.TC005_ValidatingGiftCardDetails" class="method navigator-link" hash-for-method="ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanujgmail.com, 9786923316, Trichy, 603103, Invalid)">ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanujgmail.com, 9786923316, Trichy, 603103, Invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.TC005_ValidatingGiftCardDetails" class="method navigator-link" hash-for-method="ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid)">ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -194,6 +203,60 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC002_BookShelves</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectoutOfStock">
+                  </a> <!-- SelectoutOfStock -->
+                  <span class="method-name">SelectoutOfStock</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;option&quot; data-option-key=&quot;In Stock Only&quot; data-option-name=&quot;In Stock Only&quot;&gt;...&lt;/div&gt; is not clickable at point (891, 17). Other element would receive the click: &lt;div class=&quot;optionsdata line clearfix&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=118.0.5993.71)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [723ed237e431d46378702bbf905bc297, clickElement {id=D86AE39F6D03EF770DC795B9EF7B68F2_element_192}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.71, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\2303723\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57508}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.66.137.6:4444/sessi..., se:cdpVersion: 118.0.5993.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (723ed237e431d46378702bbf905bc297)] -&gt; xpath: //div[@class=&apos;option&apos;]]
+Session ID: 723ed237e431d46378702bbf905bc297
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.click(Unknown Source)
+	at pageObjects.BookShelves.selectoutOfStock(BookShelves.java:110)
+	at testCases.TC002_BookShelves.SelectoutOfStock(TC002_BookShelves.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC001_HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Searching_Bookshleves">
+                  </a> <!-- Searching_Bookshleves -->
+                  <span class="method-name">Searching_Bookshleves</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -226,74 +289,6 @@
                   <a name="SelectPriceOfGiftCard">
                   </a> <!-- SelectPriceOfGiftCard -->
                   <span class="method-name">SelectPriceOfGiftCard</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC001_HomePage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Searching_Bookshleves">
-                  </a> <!-- Searching_Bookshleves -->
-                  <span class="method-name">Searching_Bookshleves</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC003_Living</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="PrintDetailsInSubMenu">
-                  </a> <!-- PrintDetailsInSubMenu -->
-                  <span class="method-name">PrintDetailsInSubMenu</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SelectGiftCards">
-                  </a> <!-- SelectGiftCards -->
-                  <span class="method-name">SelectGiftCards</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SelectLivingSubMenu">
-                  </a> <!-- SelectLivingSubMenu -->
-                  <span class="method-name">SelectLivingSubMenu</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.TC005_ValidatingGiftCardDetails</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanujgmail.com, 9786923316, Trichy, 603103, Invalid)">
-                  </a> <!-- ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanujgmail.com, 9786923316, Trichy, 603103, Invalid) -->
-                  <span class="method-name">ValidatingDetails</span>
-                  <span class="parameters">(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanujgmail.com, 9786923316, Trichy, 603103, Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid)">
-                  </a> <!-- ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid) -->
-                  <span class="method-name">ValidatingDetails</span>
-                  <span class="parameters">(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -339,11 +334,57 @@
                   <span class="method-name">Select_PriceRange</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC005_ValidatingGiftCardDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SelectoutOfStock">
-                  </a> <!-- SelectoutOfStock -->
-                  <span class="method-name">SelectoutOfStock</span>
+                  <a name="ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid)">
+                  </a> <!-- ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid) -->
+                  <span class="method-name">ValidatingDetails</span>
+                  <span class="parameters">(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanujgmail.com, 9786923316, Trichy, 603103, Invalid)">
+                  </a> <!-- ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanujgmail.com, 9786923316, Trichy, 603103, Invalid) -->
+                  <span class="method-name">ValidatingDetails</span>
+                  <span class="parameters">(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanujgmail.com, 9786923316, Trichy, 603103, Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC003_Living</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PrintDetailsInSubMenu">
+                  </a> <!-- PrintDetailsInSubMenu -->
+                  <span class="method-name">PrintDetailsInSubMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectGiftCards">
+                  </a> <!-- SelectGiftCards -->
+                  <span class="method-name">SelectGiftCards</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectLivingSubMenu">
+                  </a> <!-- SelectLivingSubMenu -->
+                  <span class="method-name">SelectLivingSubMenu</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -351,7 +392,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\2303723\OneDrive - Cognizant\Desktop\Eclipse\HackathonProject\Grouping.xml</span>
+            <span class="header-content">C:\Users\2303723\Downloads\Eclipse\HackathonProject\MasterTestng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -364,13 +405,6 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;groups&gt;
-      &lt;run&gt;
-        &lt;include name=&quot;smoke&quot;/&gt;
-        &lt;include name=&quot;regression&quot;/&gt;
-        &lt;include name=&quot;master&quot;/&gt;
-      &lt;/run&gt;
-    &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC001_HomePage&quot;/&gt;
       &lt;class name=&quot;testCases.TC002_BookShelves&quot;/&gt;
@@ -552,72 +586,72 @@ data.addRows(16);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ValidatingDetails')
 data.setCell(0, 2, 'testCases.TC005_ValidatingGiftCardDetails')
-data.setCell(0, 3, 30916);
+data.setCell(0, 3, 8982);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'ValidatingDetails')
 data.setCell(1, 2, 'testCases.TC005_ValidatingGiftCardDetails')
-data.setCell(1, 3, 8727);
+data.setCell(1, 3, 7700);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'PrintProductDetails')
 data.setCell(2, 2, 'testCases.TC002_BookShelves')
-data.setCell(2, 3, 8078);
+data.setCell(2, 3, 5780);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'PrintDetailsInSubMenu')
+data.setCell(3, 1, 'SelectGiftCards')
 data.setCell(3, 2, 'testCases.TC003_Living')
-data.setCell(3, 3, 6630);
+data.setCell(3, 3, 3849);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Searching_Bookshleves')
-data.setCell(4, 2, 'testCases.TC001_HomePage')
-data.setCell(4, 3, 4649);
+data.setCell(4, 1, 'PrintDetailsInSubMenu')
+data.setCell(4, 2, 'testCases.TC003_Living')
+data.setCell(4, 3, 3631);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'SelectGiftCards')
-data.setCell(5, 2, 'testCases.TC003_Living')
-data.setCell(5, 3, 4341);
+data.setCell(5, 1, 'Searching_Bookshleves')
+data.setCell(5, 2, 'testCases.TC001_HomePage')
+data.setCell(5, 3, 3598);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Select_PriceRange')
+data.setCell(6, 1, 'Closing_Popup')
 data.setCell(6, 2, 'testCases.TC002_BookShelves')
-data.setCell(6, 3, 2746);
+data.setCell(6, 3, 2201);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Closing_Popup')
+data.setCell(7, 1, 'SelectoutOfStock')
 data.setCell(7, 2, 'testCases.TC002_BookShelves')
-data.setCell(7, 3, 1731);
+data.setCell(7, 3, 1955);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'SelectOrderRange')
+data.setCell(8, 1, 'Select_PriceRange')
 data.setCell(8, 2, 'testCases.TC002_BookShelves')
-data.setCell(8, 3, 1086);
+data.setCell(8, 3, 1623);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'SelectoutOfStock')
+data.setCell(9, 1, 'Select_Category')
 data.setCell(9, 2, 'testCases.TC002_BookShelves')
-data.setCell(9, 3, 916);
+data.setCell(9, 3, 597);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'Select_Category')
-data.setCell(10, 2, 'testCases.TC002_BookShelves')
-data.setCell(10, 3, 891);
+data.setCell(10, 1, 'SelectDate')
+data.setCell(10, 2, 'testCases.TC004_GiftCards')
+data.setCell(10, 3, 579);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'SelectLivingSubMenu')
-data.setCell(11, 2, 'testCases.TC003_Living')
-data.setCell(11, 3, 670);
+data.setCell(11, 1, 'SelectGiftCard')
+data.setCell(11, 2, 'testCases.TC004_GiftCards')
+data.setCell(11, 3, 578);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'SelectGiftCard')
-data.setCell(12, 2, 'testCases.TC004_GiftCards')
-data.setCell(12, 3, 664);
+data.setCell(12, 1, 'SelectOrderRange')
+data.setCell(12, 2, 'testCases.TC002_BookShelves')
+data.setCell(12, 3, 366);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'SelectDate')
-data.setCell(13, 2, 'testCases.TC004_GiftCards')
-data.setCell(13, 3, 596);
+data.setCell(13, 1, 'SelectLivingSubMenu')
+data.setCell(13, 2, 'testCases.TC003_Living')
+data.setCell(13, 3, 322);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'SelectPriceOfGiftCard')
 data.setCell(14, 2, 'testCases.TC004_GiftCards')
-data.setCell(14, 3, 265);
+data.setCell(14, 3, 176);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'SelectNext')
 data.setCell(15, 2, 'testCases.TC004_GiftCards')
-data.setCell(15, 3, 173);
+data.setCell(15, 3, 105);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -645,7 +679,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC003_Living</span>
+              <span class="ignored-class-name">testCases.TC002_BookShelves</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">tearDown</span>
                 <br/>
@@ -663,7 +697,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testCases.TC002_BookShelves</span>
+              <span class="ignored-class-name">testCases.TC003_Living</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">tearDown</span>
                 <br/>
@@ -686,86 +720,88 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Searching_Bookshleves</span>
-                <span class="method-start">15706 ms</span>
+                <span class="method-start">41011 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC002_BookShelves</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Closing_Popup</span>
-                <span class="method-start">21817 ms</span>
+                <span class="method-start">45886 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Select_Category</span>
-                <span class="method-start">24570 ms</span>
+                <span class="method-start">48993 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Select_PriceRange</span>
-                <span class="method-start">26359 ms</span>
+                <span class="method-start">50003 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">SelectoutOfStock</span>
-                <span class="method-start">29803 ms</span>
+                <span class="method-start">52158 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SelectOrderRange</span>
-                <span class="method-start">31379 ms</span>
+                <span class="method-start">54589 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PrintProductDetails</span>
-                <span class="method-start">33245 ms</span>
+                <span class="method-start">55333 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC003_Living</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">SelectLivingSubMenu</span>
-                <span class="method-start">42048 ms</span>
+                <span class="method-start">61486 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PrintDetailsInSubMenu</span>
-                <span class="method-start">43236 ms</span>
+                <span class="method-start">62093 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SelectGiftCards</span>
-                <span class="method-start">50290 ms</span>
+                <span class="method-start">66063 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC004_GiftCards</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">SelectGiftCard</span>
-                <span class="method-start">55822 ms</span>
+                <span class="method-start">70843 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SelectPriceOfGiftCard</span>
-                <span class="method-start">56897 ms</span>
+                <span class="method-start">71724 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SelectDate</span>
-                <span class="method-start">57618 ms</span>
+                <span class="method-start">72235 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">SelectNext</span>
-                <span class="method-start">58749 ms</span>
+                <span class="method-start">73163 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC005_ValidatingGiftCardDetails</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanujgmail.com, 9786923316, Trichy, 603103, Invalid)</span>
-                <span class="method-start">60983 ms</span>
+                <span class="method-start">74276 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidatingDetails(Jam, Jam@gmail.com, 9443644863, Thanuj, Thanuj@gmail.com, 9786923316, Trichy, 603103, Valid)</span>
-                <span class="method-start">92241 ms</span>
+                <span class="method-start">83441 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC001_HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">101753 ms</span>
+                <span class="method-start">91738 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

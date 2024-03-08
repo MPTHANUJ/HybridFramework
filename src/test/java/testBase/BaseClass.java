@@ -84,7 +84,7 @@ public class BaseClass {
 				default : System.out.println("No matching browser......");break;
 			}
 			
-			driver = new RemoteWebDriver(new URL("http://192.168.1.12:4444"),capabilities);	
+			driver = new RemoteWebDriver(new URL("http://10.66.137.6:4444"),capabilities);	
 			
 		}
 		
