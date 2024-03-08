@@ -2,6 +2,7 @@ package testCases;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
 import org.testng.annotations.Test;
 
 import pageObjects.Living;
@@ -13,7 +14,12 @@ public class TC003_Living extends BaseClass{
 	public void SelectLivingSubMenu() throws InterruptedException, IOException {
 		
 		LV = new Living(driver);
-		logger.info("***** Starting TC002 *****");
+		
+		//Generating log file for the testCase - TC003
+		
+		logger = LogManager.getLogger(this.getClass());
+		logger.info("***** Starting TC003 *****");
+		
 		LV.scrollUp();
 		LV.moveToLiving();
 		logger.info("The User checks the options available in the Living Sub Menu");

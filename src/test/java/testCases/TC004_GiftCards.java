@@ -1,5 +1,6 @@
 package testCases;
 
+import org.apache.logging.log4j.LogManager;
 import org.testng.annotations.Test;
 
 import pageObjects.GiftCards;
@@ -12,7 +13,12 @@ public class TC004_GiftCards extends BaseClass{
 	public void SelectGiftCard() throws InterruptedException {
 		
 		GC = new GiftCards(driver);
+		
+		//Generating log file for the testCase - TC004
+		
+		logger = LogManager.getLogger(this.getClass());
 		logger.info("***** Starting TC004 *****");
+		
 		GC.scrollToBirthday();
 		GC.clickBirthday();
 		logger.info("The user selects the Birthday GiftCard");

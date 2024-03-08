@@ -1,5 +1,6 @@
 package testCases;
 
+import org.apache.logging.log4j.LogManager;
 import org.testng.annotations.Test;
 
 import pageObjects.GiftCards;
@@ -12,6 +13,11 @@ public class TC005_ValidatingGiftCardDetails extends BaseClass{
 	public void ValidatingDetails(String RName,String REmail,String RMobile,String SName,String SEmail,String SMobile,String SAddress,String SPincode,String Res) throws InterruptedException {
 		
 		GC = new GiftCards(driver);
+		
+		//Generating log file for the testCase - TC005
+		
+		logger = LogManager.getLogger(this.getClass());
+		
 		GC.EnterRecipientName(RName);
 		GC.EnterRecipientEmail(REmail);
 		GC.EnterRecipientMobilenum(RMobile);

@@ -54,9 +54,6 @@ public class BaseClass {
 		P = new Properties();
 		P.load(file);
 		
-		//Generating log file for the testCases
-		
-		logger = LogManager.getLogger(this.getClass());
 		
 		if(P.getProperty("execution_env").equalsIgnoreCase("remote")) {
 			

@@ -2,6 +2,7 @@ package testCases;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
 import org.testng.annotations.Test;
 
 import pageObjects.BookShelves;
@@ -9,10 +10,16 @@ import testBase.BaseClass;
 
 public class TC002_BookShelves extends BaseClass{
 
+	
+	
 	@Test(priority=2,groups={"regression","master"})
 	public void Closing_Popup() throws InterruptedException, IOException {
 		
 		BS = new BookShelves(driver);
+		
+		//Generating log file for the testCase - TC002
+		
+		logger = LogManager.getLogger(this.getClass());
 		logger.info("***** Starting TC002 *****");
 		BS.clickPopUp();
 		logger.info("The PopUp is closed");
